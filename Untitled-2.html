@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+            #S{
+                width:15%;
+                height:200px;
+                background-color: black;
+                animation-name: demo;
+                animation-duration: 6s;
+                animation-iteration-count:infinite;
+                animation-delay: 0s;
+                position:relative;
+                opacity: 0.8;
+                margin-bottom:30px ;
+        
+                
+            }
+            #S2{
+                width:15%;
+                height:200px;
+                background-color: rgb(238, 7, 7);
+                animation-name: demo2;
+                animation-duration: 6s;
+                animation-iteration-count:infinite;
+                animation-delay: 0s;
+                position:relative;
+                opacity: 0.8;
+            }
+            #S3
+               { width:15%;
+                height:200px;
+                background-color: rgb(238, 7, 7);
+                animation-name: demo2;
+                animation-duration: 6s;
+                animation-iteration-count:infinite;
+                animation-delay: 0s;
+                position:relative;
+                opacity: 0.8;
+            }
+            @keyframes demo
+            {
+               
+                0%{background-color: black;top:0px;left:0px;transform:rotate(45deg);}
+                25%{background-color:yellowgreen;top:0px;left:250px;}
+                50%{background-color:red;top:15px;left:250px;border-radius:100%;}
+                75%{background-color:navy;top:150px;left:0px;}
+                100%{background-color:green;top:0px;left:0px;}
+
+            }
+            @keyframes demo2
+            {
+                0%{background-color: rgb(0, 0, 0);top:0px;left:0px;transform:rotate(45deg);}
+                25%{background-color:rgb(76, 50, 205);top:0px;left:250px;}
+                50%{background-color:rgb(242, 255, 0);top:15px;left:250px;border-radius:100%;}
+                75%{background-color:rgb(128, 0, 85);top:150px;left:0px;}
+                100%{background-color:green;top:0px;left:0px;}
+            }
+            @keyframes demo3
+            {
+                0%{background-color: rgb(0, 0, 0);top:0px;left:0px;transform:rotate(45deg);}
+                25%{background-color:rgb(76, 50, 205);top:0px;left:250px;}
+                50%{background-color:rgb(242, 255, 0);top:15px;left:250px;border-radius:100%;}
+                75%{background-color:rgb(128, 0, 85);top:150px;left:0px;}
+                100%{background-color:green;top:0px;left:0px;}
+            }</style>
+    </head>
+    <body bgcolor="silver">
+        <div id="S"></div>
+        <div id="S2"></div>
+        <div id="S3"></div>
+    </body>
+</html>
